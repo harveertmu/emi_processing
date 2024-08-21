@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call(PermissionTableSeeder::class);
         $this->call(CreateAdminUserSeeder::class);
         $this->call(RoleTableSeeder::class);
+        $this->call(LoanDetailsSeeder::class);
+
         
     }
 }
